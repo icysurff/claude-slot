@@ -1,0 +1,523 @@
+{
+    "game_id": "0_0_wildrespin",
+    "bet_modes": [
+        {
+            "bet_mode": "base",
+            "cost": 1.0,
+            "rtp": 0.965,
+            "max_win": 50000
+        },
+        {
+            "bet_mode": "enhancer",
+            "cost": 1.5,
+            "rtp": 0.965,
+            "max_win": 50000
+        },
+        {
+            "bet_mode": "buy_normal",
+            "cost": 31.0,
+            "rtp": 0.965,
+            "max_win": 50000
+        },
+        {
+            "bet_mode": "buy_super",
+            "cost": 104.0,
+            "rtp": 0.965,
+            "max_win": 50000
+        },
+        {
+            "bet_mode": "buy_jackpot",
+            "cost": 1700.0,
+            "rtp": 0.965,
+            "max_win": 50000
+        },
+        {
+            "bet_mode": "buy_wildreels",
+            "cost": 2600.0,
+            "rtp": 0.965,
+            "max_win": 50000
+        }
+    ],
+    "fences": [
+        {
+            "bet_mode": "base",
+            "fences": [
+                {
+                    "name": "wincap",
+                    "avg_win": "50000",
+                    "rtp": "0.005",
+                    "identity_condition": {
+                        "search": [],
+                        "win_range_start": 50000,
+                        "win_range_end": 50000,
+                        "opposite": false
+                    }
+                },
+                {
+                    "name": "jackpot",
+                    "hr": "22000",
+                    "rtp": "0.07",
+                    "identity_condition": {
+                        "search": [
+                            {
+                                "name": "symbol",
+                                "value": "scatter"
+                            },
+                            {
+                                "name": "kind",
+                                "value": "5"
+                            }
+                        ],
+                        "win_range_start": -1,
+                        "win_range_end": -1,
+                        "opposite": false
+                    }
+                },
+                {
+                    "name": "super",
+                    "hr": "1000",
+                    "rtp": "0.1",
+                    "identity_condition": {
+                        "search": [
+                            {
+                                "name": "symbol",
+                                "value": "scatter"
+                            },
+                            {
+                                "name": "kind",
+                                "value": "4"
+                            }
+                        ],
+                        "win_range_start": -1,
+                        "win_range_end": -1,
+                        "opposite": false
+                    }
+                },
+                {
+                    "name": "freegame",
+                    "hr": "150",
+                    "rtp": "0.2",
+                    "identity_condition": {
+                        "search": [
+                            {
+                                "name": "symbol",
+                                "value": "scatter"
+                            },
+                            {
+                                "name": "kind",
+                                "value": "3"
+                            }
+                        ],
+                        "win_range_start": -1,
+                        "win_range_end": -1,
+                        "opposite": false
+                    }
+                },
+                {
+                    "name": "0",
+                    "avg_win": "0",
+                    "rtp": "0",
+                    "identity_condition": {
+                        "search": [],
+                        "win_range_start": 0,
+                        "win_range_end": 0,
+                        "opposite": false
+                    }
+                },
+                {
+                    "name": "basegame",
+                    "hr": "2.8",
+                    "rtp": "0.59",
+                    "identity_condition": {
+                        "search": [],
+                        "win_range_start": -1,
+                        "win_range_end": -1,
+                        "opposite": false
+                    }
+                }
+            ]
+        },
+        {
+            "bet_mode": "enhancer",
+            "fences": [
+                {
+                    "name": "wincap",
+                    "avg_win": "50000",
+                    "rtp": "0.0076",
+                    "identity_condition": {
+                        "search": [],
+                        "win_range_start": 50000,
+                        "win_range_end": 50000,
+                        "opposite": false
+                    }
+                },
+                {
+                    "name": "jackpot",
+                    "hr": "9600",
+                    "rtp": "0.1067",
+                    "identity_condition": {
+                        "search": [
+                            {
+                                "name": "symbol",
+                                "value": "scatter"
+                            },
+                            {
+                                "name": "kind",
+                                "value": "5"
+                            }
+                        ],
+                        "win_range_start": -1,
+                        "win_range_end": -1,
+                        "opposite": false
+                    }
+                },
+                {
+                    "name": "super",
+                    "hr": "437",
+                    "rtp": "0.1524",
+                    "identity_condition": {
+                        "search": [
+                            {
+                                "name": "symbol",
+                                "value": "scatter"
+                            },
+                            {
+                                "name": "kind",
+                                "value": "4"
+                            }
+                        ],
+                        "win_range_start": -1,
+                        "win_range_end": -1,
+                        "opposite": false
+                    }
+                },
+                {
+                    "name": "freegame",
+                    "hr": "66",
+                    "rtp": "0.3049",
+                    "identity_condition": {
+                        "search": [
+                            {
+                                "name": "symbol",
+                                "value": "scatter"
+                            },
+                            {
+                                "name": "kind",
+                                "value": "3"
+                            }
+                        ],
+                        "win_range_start": -1,
+                        "win_range_end": -1,
+                        "opposite": false
+                    }
+                },
+                {
+                    "name": "0",
+                    "avg_win": "0",
+                    "rtp": "0",
+                    "identity_condition": {
+                        "search": [],
+                        "win_range_start": 0,
+                        "win_range_end": 0,
+                        "opposite": false
+                    }
+                },
+                {
+                    "name": "basegame",
+                    "hr": "2.8",
+                    "rtp": "0.3934",
+                    "identity_condition": {
+                        "search": [],
+                        "win_range_start": -1,
+                        "win_range_end": -1,
+                        "opposite": false
+                    }
+                }
+            ]
+        },
+        {
+            "bet_mode": "buy_normal",
+            "fences": [
+                {
+                    "name": "freegame",
+                    "hr": "x",
+                    "rtp": "0.965",
+                    "identity_condition": {
+                        "search": [],
+                        "win_range_start": -1,
+                        "win_range_end": -1,
+                        "opposite": false
+                    }
+                }
+            ]
+        },
+        {
+            "bet_mode": "buy_super",
+            "fences": [
+                {
+                    "name": "super",
+                    "hr": "x",
+                    "rtp": "0.965",
+                    "identity_condition": {
+                        "search": [],
+                        "win_range_start": -1,
+                        "win_range_end": -1,
+                        "opposite": false
+                    }
+                }
+            ]
+        },
+        {
+            "bet_mode": "buy_jackpot",
+            "fences": [
+                {
+                    "name": "wincap",
+                    "avg_win": "50000",
+                    "rtp": "0.06",
+                    "identity_condition": {
+                        "search": [],
+                        "win_range_start": 50000,
+                        "win_range_end": 50000,
+                        "opposite": false
+                    }
+                },
+                {
+                    "name": "jackpot",
+                    "hr": "x",
+                    "rtp": "0.905",
+                    "identity_condition": {
+                        "search": [],
+                        "win_range_start": -1,
+                        "win_range_end": -1,
+                        "opposite": false
+                    }
+                }
+            ]
+        },
+        {
+            "bet_mode": "buy_wildreels",
+            "fences": [
+                {
+                    "name": "wincap",
+                    "avg_win": "50000",
+                    "rtp": "0.02",
+                    "identity_condition": {
+                        "search": [],
+                        "win_range_start": 50000,
+                        "win_range_end": 50000,
+                        "opposite": false
+                    }
+                },
+                {
+                    "name": "wildreels",
+                    "hr": "x",
+                    "rtp": "0.945",
+                    "identity_condition": {
+                        "search": [],
+                        "win_range_start": -1,
+                        "win_range_end": -1,
+                        "opposite": false
+                    }
+                }
+            ]
+        }
+    ],
+    "dresses": [
+        {
+            "bet_mode": "base",
+            "dresses": [
+                {
+                    "fence": "basegame",
+                    "scale_factor": "0.6",
+                    "identity_condition_win_range": [
+                        0.1,
+                        0.5
+                    ],
+                    "prob": 1.0
+                },
+                {
+                    "fence": "basegame",
+                    "scale_factor": "14.0",
+                    "identity_condition_win_range": [
+                        1,
+                        2
+                    ],
+                    "prob": 1.0
+                },
+                {
+                    "fence": "basegame",
+                    "scale_factor": "10.0",
+                    "identity_condition_win_range": [
+                        2,
+                        5
+                    ],
+                    "prob": 1.0
+                },
+                {
+                    "fence": "basegame",
+                    "scale_factor": "1.2",
+                    "identity_condition_win_range": [
+                        5,
+                        20
+                    ],
+                    "prob": 1.0
+                },
+                {
+                    "fence": "basegame",
+                    "scale_factor": "0.3",
+                    "identity_condition_win_range": [
+                        20,
+                        100
+                    ],
+                    "prob": 1.0
+                }
+            ]
+        },
+        {
+            "bet_mode": "enhancer",
+            "dresses": [
+                {
+                    "fence": "basegame",
+                    "scale_factor": "0.6",
+                    "identity_condition_win_range": [
+                        0.1,
+                        0.5
+                    ],
+                    "prob": 1.0
+                },
+                {
+                    "fence": "basegame",
+                    "scale_factor": "14.0",
+                    "identity_condition_win_range": [
+                        1,
+                        2
+                    ],
+                    "prob": 1.0
+                },
+                {
+                    "fence": "basegame",
+                    "scale_factor": "10.0",
+                    "identity_condition_win_range": [
+                        2,
+                        5
+                    ],
+                    "prob": 1.0
+                },
+                {
+                    "fence": "basegame",
+                    "scale_factor": "1.2",
+                    "identity_condition_win_range": [
+                        5,
+                        20
+                    ],
+                    "prob": 1.0
+                },
+                {
+                    "fence": "basegame",
+                    "scale_factor": "0.3",
+                    "identity_condition_win_range": [
+                        20,
+                        100
+                    ],
+                    "prob": 1.0
+                }
+            ]
+        },
+        {
+            "bet_mode": "buy_normal",
+            "dresses": []
+        },
+        {
+            "bet_mode": "buy_super",
+            "dresses": []
+        },
+        {
+            "bet_mode": "buy_jackpot",
+            "dresses": []
+        },
+        {
+            "bet_mode": "buy_wildreels",
+            "dresses": []
+        }
+    ],
+    "bias": [
+        {
+            "bet_mode": "base",
+            "bias": [
+                {
+                    "criteria": "",
+                    "range": [
+                        0.0,
+                        0.0
+                    ],
+                    "prob": 0.0
+                }
+            ]
+        },
+        {
+            "bet_mode": "enhancer",
+            "bias": [
+                {
+                    "criteria": "",
+                    "range": [
+                        0.0,
+                        0.0
+                    ],
+                    "prob": 0.0
+                }
+            ]
+        },
+        {
+            "bet_mode": "buy_normal",
+            "bias": [
+                {
+                    "criteria": "",
+                    "range": [
+                        0.0,
+                        0.0
+                    ],
+                    "prob": 0.0
+                }
+            ]
+        },
+        {
+            "bet_mode": "buy_super",
+            "bias": [
+                {
+                    "criteria": "",
+                    "range": [
+                        0.0,
+                        0.0
+                    ],
+                    "prob": 0.0
+                }
+            ]
+        },
+        {
+            "bet_mode": "buy_jackpot",
+            "bias": [
+                {
+                    "criteria": "",
+                    "range": [
+                        0.0,
+                        0.0
+                    ],
+                    "prob": 0.0
+                }
+            ]
+        },
+        {
+            "bet_mode": "buy_wildreels",
+            "bias": [
+                {
+                    "criteria": "",
+                    "range": [
+                        0.0,
+                        0.0
+                    ],
+                    "prob": 0.0
+                }
+            ]
+        }
+    ]
+}

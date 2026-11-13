@@ -1,0 +1,168 @@
+{
+    "workingName": "Wild Respin Chests",
+    "frontendConfig": {
+        "file": "fe_config.json",
+        "sha256": "0c8ee6bb9856757f86582a4e1cfceb315c05c638f4a8f331d2317668a5070137"
+    },
+    "gameID": "0_0_wildrespin",
+    "rtp": 96.5,
+    "betDenomination": 1000,
+    "minDenomination": 10,
+    "providerNumber": 0,
+    "standardForceFile": {
+        "file": "force.json",
+        "sha256": "f11385c6306206f52af81070d5c69d8c3323d1aad0a54519dd22612ecd614e8d"
+    },
+    "bookShelfConfig": [
+        {
+            "name": "base",
+            "tables": [
+                {
+                    "file": "lookUpTable_base_0.csv",
+                    "sha256": "c6299092e0ee7e3593a28c18a14c8449dc4e2a227c3809f5ab34e9de4b6078ab"
+                }
+            ],
+            "cost": 1.0,
+            "rtp": 0.965,
+            "std": 31.02,
+            "bookLength": 100000,
+            "feature": true,
+            "autoEndRoundDisabled": false,
+            "buyBonus": false,
+            "maxWin": 50000,
+            "booksFile": {
+                "file": "books_base.jsonl.zst",
+                "sha256": "01be688c63571821aec2910d8f07a3074a9428d9c8d92e70ceaf5420feba787f"
+            },
+            "forceFile": {
+                "file": "force_record_base.json",
+                "sha256": "756b5e9cd5b18f941f967d2ecd286c4959800c98f78298a35b788718a7496972"
+            }
+        },
+        {
+            "name": "enhancer",
+            "tables": [
+                {
+                    "file": "lookUpTable_enhancer_0.csv",
+                    "sha256": "1266ba2b067c2a7929a0456c6fa1dd523186b4447e8d6349bb40d2c05f489575"
+                }
+            ],
+            "cost": 1.5,
+            "rtp": 0.965,
+            "std": 29.48,
+            "bookLength": 100000,
+            "feature": true,
+            "autoEndRoundDisabled": false,
+            "buyBonus": false,
+            "maxWin": 50000,
+            "booksFile": {
+                "file": "books_enhancer.jsonl.zst",
+                "sha256": "26cf7c2b2b503bd630aad52e65fb5924f79ebc0a005b0e3a59994b7744c80e45"
+            },
+            "forceFile": {
+                "file": "force_record_enhancer.json",
+                "sha256": "0321db772141d3634a05be0ef903225d7a1a365c15f783777fd5cab813e2c807"
+            }
+        },
+        {
+            "name": "buy_normal",
+            "tables": [
+                {
+                    "file": "lookUpTable_buy_normal_0.csv",
+                    "sha256": "47e8f615868195b13e6853ceb7d0eeceb69cc66081efe16c100cbdc8a32002a6"
+                }
+            ],
+            "cost": 31.0,
+            "rtp": 0.965,
+            "std": 1.12,
+            "bookLength": 20000,
+            "feature": false,
+            "autoEndRoundDisabled": false,
+            "buyBonus": true,
+            "maxWin": 50000,
+            "booksFile": {
+                "file": "books_buy_normal.jsonl.zst",
+                "sha256": "290af3d079b3a9f8e1af764010bf514445b45c4ca18c31de3ee913d9dcbb0d07"
+            },
+            "forceFile": {
+                "file": "force_record_buy_normal.json",
+                "sha256": "167e738cca284dc6376d529c6a73874e4ee71e8afd4290ab3a2e24699a5b70a2"
+            }
+        },
+        {
+            "name": "buy_super",
+            "tables": [
+                {
+                    "file": "lookUpTable_buy_super_0.csv",
+                    "sha256": "cef3cd61bc2febe0ec4eb090bf7486a9dfa4a1812addd506573eb1557e5b4263"
+                }
+            ],
+            "cost": 104.0,
+            "rtp": 0.965,
+            "std": 1.77,
+            "bookLength": 20000,
+            "feature": false,
+            "autoEndRoundDisabled": false,
+            "buyBonus": true,
+            "maxWin": 50000,
+            "booksFile": {
+                "file": "books_buy_super.jsonl.zst",
+                "sha256": "905ca0b87765fe5240304dfd62ebb0d9eaec81781c33c13962903995750bf529"
+            },
+            "forceFile": {
+                "file": "force_record_buy_super.json",
+                "sha256": "7e55e3d50894e7c3f5bef1ef42bb73e59a1d7189aac3c7f3d75ebafa6806f14c"
+            }
+        },
+        {
+            "name": "buy_jackpot",
+            "tables": [
+                {
+                    "file": "lookUpTable_buy_jackpot_0.csv",
+                    "sha256": "7f16bf8b4eddb90d51335723a9b6eef1bd85f9bdc115eeffff9b49b0e65f8176"
+                }
+            ],
+            "cost": 1700.0,
+            "rtp": 0.965,
+            "std": 2.72,
+            "bookLength": 50000,
+            "feature": false,
+            "autoEndRoundDisabled": false,
+            "buyBonus": true,
+            "maxWin": 50000,
+            "booksFile": {
+                "file": "books_buy_jackpot.jsonl.zst",
+                "sha256": "b6d1abcfd233cc7d42540b87f226528d536f5e61ad2d8d97a74c1f21322085a3"
+            },
+            "forceFile": {
+                "file": "force_record_buy_jackpot.json",
+                "sha256": "fa9afad1545cad107503041b4e6c55de4d3b4b8f96fe8adecc9763883089540e"
+            }
+        },
+        {
+            "name": "buy_wildreels",
+            "tables": [
+                {
+                    "file": "lookUpTable_buy_wildreels_0.csv",
+                    "sha256": "bc934a84b7b3ca9e749b4f985ed1ba1acb29f29edba25467c189913928f41259"
+                }
+            ],
+            "cost": 2600.0,
+            "rtp": 0.965,
+            "std": 2.05,
+            "bookLength": 30000,
+            "feature": false,
+            "autoEndRoundDisabled": false,
+            "buyBonus": true,
+            "maxWin": 50000,
+            "booksFile": {
+                "file": "books_buy_wildreels.jsonl.zst",
+                "sha256": "025b3ebab8bef5bb846e8be74aa8e7841978498167fc49ba4bec7c66631fc064"
+            },
+            "forceFile": {
+                "file": "force_record_buy_wildreels.json",
+                "sha256": "dd93031bde8d04fa5632dc41ae5c86f545104da4d3ec20b7e76958ccbfd78ec7"
+            }
+        }
+    ]
+}
